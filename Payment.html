@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            line-height: 2.0;
+            color: black;
+            background-color: #e9e9e9;
+            font-family: "Times New Roman";
+            font-size: 20px;
+        }
+        h1{
+            font-size: 40px;
+            padding: 2px;
+        }
+        span{
+
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Car Payment</title>
+</head>
+<body>
+<h1><u>Card Details</u></h1>
+<p>Method of Payment:</p>
+<span class="fa fa-cc-visa fa-3x" style="color: blue" ></span>
+<span class="fa fa-cc-mastercard fa-3x" style="color: orange"></span>
+<span class="fa fa-cc-amex fa-3x" style="color: deepskyblue"></span>
+<span class="fa fa-cc-jcb fa-3x" style="color:navy "></span>
+<form action="Successfully Purchased.html">
+    <label for="payment">Select Payment Method:</label>
+    <select name="payment" id="payment">
+        <option value="none"></option>
+        <option value="Credit Card">Credit Card</option>
+    </select><br>
+
+    <label for="card details">Card Details</label>
+    <input type="number"id="card details" placeholder="1234 5678 9876 5432" required> <br>
+
+    <label for="month">mm/yy</label>
+    <input type="month" id="month"><br>
+
+    <label for="csc">Credit Card Security Code:</label>
+    <input type="number" id="CSC" placeholder="123" required>
+    <p><b> Note:</b>This is the number that appears at the back of your credit card.</p>
+
+    <label for="name">Card Holder's Name:</label>
+    <input type="text" id="name">
+
+    <label for="country">Country</label>
+    <select name="country" id="country">
+        <option value="none"></option>
+        <option value="Kenya">Kenya</option>
+    </select><br>
+
+    <label for="tel">Billing Telephone Number:</label>
+    <input type="tel" id="tel" placeholder="1234-56789" required><br>
+
+    <label for="address">Billing Address 1</label>
+    <input type="number" id="address" placeholder="1234-567"><br>
+
+    <label for="address 1">Billing Address 2</label>
+    <input type="number" id="address 1" required><br>
+
+    <button type="button" onclick="alert('Order#1110652446544 has been placed!Kindly click SUBMIT to Confirm.')">
+        CLICK HERE!
+    </button>
+    <br>
+    <input type="reset">
+    <input type="submit" value="SUBMIT">
+
+</form>
+
+</body>
+</html>
